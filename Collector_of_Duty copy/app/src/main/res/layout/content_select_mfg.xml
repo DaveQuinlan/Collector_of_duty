@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.djqdesign.collector_of_duty.SelectMFG"
+    tools:showIn="@layout/activity_select_mfg">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="32dp"
+    android:columnCount="2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <ImageButton
+        android:id="@+id/Atari_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/atari_logo"
+        android:padding="0dp"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:onClick="onClickAtari"/>
+    <ImageButton
+        android:id="@+id/Commodore_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/commodore_logo"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_margin="25dp"/>
+    <ImageButton
+        android:id="@+id/Microsoft_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/microsoft_logo"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_margin="25dp"/>
+    <ImageButton
+        android:id="@+id/Nintendo_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nintendo_logo_red"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_margin="25dp"/>
+    <ImageButton
+        android:id="@+id/Sega_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sega_logo"
+        android:padding="0dp"
+        android:layout_margin="25dp"
+        android:layout_marginLeft="55dp"/>
+    <ImageButton
+        android:id="@+id/SNK_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snk_logo"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_margin="25dp"/>
+    <ImageButton
+        android:id="@+id/Sony_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sony_logo"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_margin="25dp"/>
+</GridLayout>
+</ScrollView>
